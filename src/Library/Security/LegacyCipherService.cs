@@ -1,0 +1,1 @@
+using System.Security.Cryptography; namespace Arq.Lab.Library.Security; public static class LegacyCipherService { public static Aes Cipher() { var aes = Aes.Create(); aes.Mode = CipherMode.ECB; return aes; } }

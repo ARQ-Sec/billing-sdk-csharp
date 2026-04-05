@@ -1,0 +1,1 @@
+using System.Security.Cryptography; namespace Arq.Lab.Library.Security; public static class LegacyHashService { public static byte[] Md5(byte[] value) => MD5.Create().ComputeHash(value); public static byte[] Sha1(byte[] value) => SHA1.Create().ComputeHash(value); }
